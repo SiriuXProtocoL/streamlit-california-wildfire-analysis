@@ -6,7 +6,7 @@ from wordcloud import WordCloud
 
 
 # Load data
-url = "/home/bebin/Documents/Bebin/Wildfire/data/California_Fire_Incidents.csv"
+url = "California_Fire_Incidents.csv"
 df = pd.read_csv(url)
 #list data columns
 a = list(df)
